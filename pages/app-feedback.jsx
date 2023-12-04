@@ -50,7 +50,7 @@ const AppFeedBack = ({ navigation }) => {
             <View className='bg-white h-[100%]'>
                 <AppBar name="App Feedback" navigation={navigation} />
                 <View className='mx-[16px]'>
-                    <DialogBox des="Your request has been submitted successfully. We’ll get back to you soon." isVisible={visible} navigation={navigation} setLoading={setLoading} setisible={setVisible} title="Success!" />
+                    <DialogBox des="Your FeedBack has been submitted successfully." isVisible={visible} navigation={navigation} setLoading={setLoading} setisible={setVisible} title="Success!" />
 
                     <View className='mx-auto mt-[24px]'>
                         <Image className='w-[280px] h-[200px]' source={feedback} />
@@ -76,7 +76,7 @@ const AppFeedBack = ({ navigation }) => {
                     </View>
 
                     <View className='mt-[24px]'>
-                        <CustoomButton loading={loading} name="add Feeback" onSubmit={SaveData} />
+                        <CustoomButton loading={loading} name="Add Feeback" onSubmit={SaveData} />
                     </View>
 
                 </View>

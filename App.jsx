@@ -2,7 +2,7 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 
-import SplashScreen from './Components/ui/splash-screen';
+import SplashScreen from './pages/splash-screen';
 import MainScreen from './pages/main-screen';
 import AppFeedBack from './pages/app-feedback';
 
