@@ -1,0 +1,18 @@
+current directory: /Users/mac/Documents/ArkitektzTestApp/vendor/bundle/ruby/2.7.0/gems/json-2.7.0/ext/json/ext/generator
+/Users/mac/.rvm/rubies/ruby-2.7.5/bin/ruby -I /Users/mac/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20231202-37526-2kll15.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mac/Documents/ArkitektzTestApp/vendor/bundle/ruby/2.7.0/gems/json-2.7.0/ext/json/ext/generator
+make "DESTDIR=" clean
+
+current directory: /Users/mac/Documents/ArkitektzTestApp/vendor/bundle/ruby/2.7.0/gems/json-2.7.0/ext/json/ext/generator
+make "DESTDIR="
+compiling generator.c
+linking shared-object json/ext/generator.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: -undefined dynamic_lookup is deprecated on iOS-simulator
+ld: building for 'iOS-simulator', but linking in dylib (/Users/mac/.rvm/rubies/ruby-2.7.5/lib/libruby.2.7.dylib) built for 'macOS'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [generator.bundle] Error 1
+
+make failed, exit code 2
